@@ -5,7 +5,7 @@
 
 int main () {
     // ensemble collection non ordonné (set)
-    // avantage recherche d'un élément est plus rapide par rapport aux listes et aux tableaus
+    // avantage recherche d'un élément est plus rapide par rapport aux listes et aux tableaux
     // avec cdes éléments homogènes tous du même type
     // avec la variante set les éléments ne peuvent être présent qu'une seul fois
     // multiset les éléments peuvent être présent une ou plusieur fois

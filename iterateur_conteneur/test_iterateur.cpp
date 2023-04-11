@@ -42,7 +42,7 @@ int main () {
     }
 
     // à l'aide de l'itérateur modifions la deuxième valeur du tableau
-    *(v.begin() + 2) = 7;
+    *(v.begin() + 1) = 7;
     *(v.end()) = 9;
     std::cout << "--------- --------------" << std::endl;
     for (int x : v) {
@@ -63,7 +63,7 @@ int main () {
 
     std::cout << "--------- --------------" << std::endl;
     // application de la méthode erase sur le vecteur v puis l'afficher
-    v.erase(v.begin() + 3, v.begin() + 5);
+    v.erase(v.begin() + 2, v.begin() + 4);
     printA(v);
 
 

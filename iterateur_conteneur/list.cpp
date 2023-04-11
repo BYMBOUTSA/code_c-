@@ -45,7 +45,7 @@ int main () {
     // on insert -2 à la position l.end()
     l.insert(l.end(), -2);
 
-    print(l); <4 -2 >
+    print(l); //<4 -2 >
 
 
 

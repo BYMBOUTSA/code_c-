@@ -49,7 +49,7 @@ public:
     std::ostringstream s;
     for (int i=0; i<M; i++) {
       for (int j=0; j<N; j++)
-	s << this->mat[N*i+j] << " ";
+	      s << this->mat[N*i+j] << " ";
       //s << (*this)(i,j) << " ";
       //
       s << "\n";

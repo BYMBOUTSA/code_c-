@@ -37,7 +37,7 @@ int main() {
 
     // à l'aide de l'itérateur, modifier la valeur du 2ème élément du vecteur
     //p = v.begin() + 2;
-    //*(v.begin() + 2) = 5;
+    //*(v.begin() + 1) = 5;
     
     /*for(int x : v) {
         // traitement de l'élément courant *it_v
